@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#d39aaeba;
+    font-family: 'Arial';
+    /* background-image: linear-gradient(pink,rgb(151, 73, 117)); */
+}
+.login{
+    width: 382px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 90px;
+    background: #d68bb1;
+    border-radius: 15px ;
+    background-image: linear-gradient(pink,rgb(151, 73, 117));
+
+}
+h1{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background-image: linear-gradient(pink,rgb(151, 73, 117));
+}
+label{
+    color: #560222;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: rgb(73, 2, 39);
+}
+#log:hover{
+    background: rgb(154, 21, 99);
+    color: #d68bb1;
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+/* a{
+    /*float: right;
+    background-color: grey;
+}
