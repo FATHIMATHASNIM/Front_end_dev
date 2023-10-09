@@ -1,0 +1,93 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    /* background-color: ; */
+    background-image: linear-gradient(rgb(105, 6, 85), rgb(205, 146, 193));
+}
+header {
+    background-color: #4b0036;
+    /* box-shadow: 20px 20px 20px #ffffff; */
+    border-radius: 25px;
+    color: white;
+    padding: 20px;
+    margin: 11px;
+    background-image: linear-gradient(rgb(105, 6, 85), rgb(205, 146, 193));
+}
+
+main{
+    padding: 20px;
+    
+}
+#title{
+    color: rgb(248, 248, 248);
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(136, 136, 136);
+    font-size: 7vh;
+    
+}
+
+#tribute-info{
+    /* background-color: white; */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#image{
+    display: inline-block;
+    width: 65%;
+    border-radius: 25px;
+}
+#caption{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    /* background-color: rgba(247, 244, 246, 0.25);; */
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 20px 20px 20px #dfaaca; */
+
+}
+#tribute-data{
+   
+    background-color: rgba(123, 5, 74, 0.25);
+    box-shadow: 20px 20px 20px #dfaaca;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 50px;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(224, 185, 216), rgb(205, 146, 193));
+}
+    
+
+#sec-title{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+}
+#para{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+#end{
+    background-color: rgba(123, 5, 74, 0.25);
+    text-align: justify;
+    box-shadow: 20px 20px 20px #dfaaca;
+    font-family: Georgia;
+    padding: 25px 25px;
+    margin: 11px;
+    margin-top: 0%;
+    border-radius: 25px;
+    background-image: linear-gradient(rgb(205, 146, 193), rgb(224, 185, 216));
+}
+#show-quote{
+    border-radius: 10px;
+    background-color: #dfaaca;
+
+}
+#show-quote:hover{
+    color: green;
+    cursor: pointer;
+}
