@@ -1,0 +1,60 @@
+/* Style for the image gallery */
+body{
+    align-items: center;
+    background-image: linear-gradient(rgb(210, 149, 149),rgb(121, 34, 34));
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    background-image: linear-gradient(rgb(121, 34, 34),rgb(210, 149, 149));
+    color: aliceblue;
+    border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+
+    
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    
+}
+
+/* Style for the modal (lightbox) */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
